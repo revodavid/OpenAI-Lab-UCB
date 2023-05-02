@@ -2,7 +2,7 @@
 
 ## Docs published on GitHub Pages
 
-Docs are published on [GitHub Pages](https://newpatiente2e.github.io/docs)
+Docs are published on [GitHub Pages](https://gloveboxes.github.io/OpenAI-Lab-Docs/)
 
 ## Docusaurus
 

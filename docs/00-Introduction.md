@@ -3,11 +3,24 @@ sidebar_position: 0
 slug: /
 ---
 
+import Social from '@site/src/components/social';
+
 # Introduction
 
 The goal of this 45-minute lab is to:
   * Understand the capabilities of Azure OpenAI Service
   * Learn how to use and customize natural language generative AI models like GPT-3.5 and ChatGPT
+
+## Please share
+
+<Social
+    page_url="https://gloveboxes.github.io/OpenAI-Lab-Docs"
+    image_url=""
+    title="New Patient Azure Form Recognizer Workshop"
+    description= "🏭 Explore Azure OpenAI Service Workshop @revodavid"
+    hashtags="AzureOpenAI"
+    hashtag=""
+/>
 
 ## Pre-requisites
 
@@ -19,7 +32,7 @@ Optionally, you will also need to have joined and be approved for the [Bing Chat
 
 Once you have completed the Setup step, you can skip ahead to any of the other sections:
 
-1. [Setup](0c-Setup) [11 minutes]. Create and deploy the Azure OpenAI resource in the Azure Portal
+1. [Setup](Setup) [11 minutes]. Create and deploy the Azure OpenAI resource in the Azure Portal
 2. [Explore Models](Explore-Models) [2 minutes]. Understand the natural language models availabe in Azure OpenAI Service.
 3. [Completions](Completions) [11 minutes]. Understand and experiment with prompts and completions.
 4. [Tokens](Tokens) [3 minutes]. Learn about tokens in Azure OpenAI models.

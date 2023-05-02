@@ -10,7 +10,7 @@ const config = {
   tagline: "Azure OpenAI Service HOL Workshop",
 
   url: "https://gloveboxes.github.io/",
-  baseUrl: "/docs/",
+  baseUrl: "/OpenAI-Lab-Docs/",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",

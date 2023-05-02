@@ -9,7 +9,7 @@ const config = {
   title: "Explore Azure OpenAI Service",
   tagline: "Azure OpenAI Service HOL Workshop",
 
-  url: "https://patiente2e.github.io/",
+  url: "https://gloveboxes.github.io/",
   baseUrl: "/docs/",
 
   onBrokenLinks: "throw",
@@ -20,7 +20,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "glovebox", // Usually your GitHub org/user name.
+  organizationName: "gloveboxes", // Usually your GitHub org/user name.
   projectName: "OpenAI-Lab-Docs", // Usually your repo name.
 
   deploymentBranch: "gh-pages", // Branch that GitHub pages will deploy from.

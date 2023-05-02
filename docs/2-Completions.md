@@ -1,4 +1,4 @@
-# Completions
+# Understanding Completions
 
 In this section, you will experiment with creating completions with OpenAI natural language models. We will use the GPT-3.5 model `text-davinci-003` throughout this section.
 
@@ -140,7 +140,3 @@ Clear the contents of the prompt box. Enter the following text, then click Gener
     Write an obituary for the poet Harold Bloomsbury. Include references.
 
 There has never been a poet (nor indeed any person, according to web search) named Harold Bloomsbury. As a result, the model generates text in the form of an obituary, but not grounded in any facts. Even the requested references, while convincing-looking, are not real.
-
-## Next Steps
-
-Now, proceed to [3 Tokens.md](3%20Tokens.md).

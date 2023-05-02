@@ -80,7 +80,3 @@ Here are some prompts to try to observe the effects of the system prompt and the
 ```
 
 Also, try asking follow-up questions to get the model to clarify or elaborate on its responses.
-
-## Next steps
-
-Proceed to [6 Prompt Engineering.md](6%20Prompt%20Engineering.md).

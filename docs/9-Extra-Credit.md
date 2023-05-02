@@ -1,4 +1,4 @@
-# Some other things to try
+# Other things to try
 
 Completed the workshop already? Need something else to do? Here are some other things to try
 
@@ -54,7 +54,3 @@ Draw a logo for an ice-cream shop located in Hawaii near the beach.
 ```
 
 Try other prompts and see what creative responses you can get!
-
-
-
-

@@ -1,4 +1,4 @@
-# Using the Azure OpenAI Service API
+# Use the Azure OpenAI Service API
 
 Note, this section assumes familiarity with developer tools including the Azure Cloud Shell, shell scripts, and environment variables. If you are not familiar with these tools, you may want to skip ahead to the next section.
 
@@ -69,5 +69,3 @@ The actual completion is the first element of the `choices` tag in the array (he
 ## Next Steps
 
 This section was intended to give a taste of automating prompt completions using the Azure OpenAI Service API. For more information on the API, see the [Azure OpenAI Service API Reference](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/reference).
-
-Now proceed to [8 Learnings and Resources.md](8%20Learnings%20and%20Resources.md).

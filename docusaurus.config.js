@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Explore the Azure OpenAI Service",
+  title: "Explore Azure OpenAI Service",
   tagline: "Azure OpenAI Service HOL Workshop",
 
   url: "https://patiente2e.github.io/",
@@ -57,10 +57,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Explore the Azure OpenAI Service",
+        title: "Explore Azure OpenAI Service",
         logo: {
           alt: "My Site Logo",
-          src: "img/logo.png",
+          src: "img/Azure-OpenAI-Services.svg",
         },
         items: [],
       },
@@ -77,7 +77,7 @@ const config = {
 
       /* Clarity Config */
       clarity: {
-        ID: "", 
+        ID: "gxhc6407pe", 
       }
 
     }),

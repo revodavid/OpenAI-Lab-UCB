@@ -28,6 +28,4 @@ We didn't cover these topics in this short session, but here are some related to
 
 ## Next Steps
 
-That's it for this module! But if you still have some time to spare, and have access to Bing Chat, we've provided some things to try in [9 Extra Credit.md](9%20Extra%20Credit.md).
-
-Proceed to [9 Extra Credit.md](9%20Extra%20Credit.md).
+That's it for this module! But if you still have some time to spare, and have access to Bing Chat, we've provided some things to try in [Extra Credit](Extra-Credit).

@@ -1,4 +1,8 @@
-## Setup
+---
+sidebar_position: 0
+---
+
+# Workshop Setup
 
 ### Create an Azure OpenAI Service resource in Azure Portal
 
@@ -57,7 +61,3 @@ Once your Azure OpenAI deployment is complete:
   * Model Name: Select `gpt-35-turbo`
   * Model version: Leave as `0301`
   * Deployment Name: Enter `gpt-35-turbo`
-
-## Next Steps
-
-You're all set! Proceed to [1 Explore Models.md](1%20Explore%20Models.md) to start the workshop proper.

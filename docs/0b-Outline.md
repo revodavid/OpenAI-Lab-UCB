@@ -1,8 +1,12 @@
-# Lab Outline
+---
+sidebar_position: 0
+---
+
+# Workshop Outline
 
 ## Get Started with the Azure OpenAI Studio
 
-* Model zoo: Exploring the "models" section
+* Model Zoo: Exploring the "models" section
 
 ### Completions
 

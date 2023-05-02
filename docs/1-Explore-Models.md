@@ -1,4 +1,4 @@
-# Explore Models
+# Explore OpenAI Models
 
 Before you begin this section, navigate to your Azure OpenAI Studio homepage:
 
@@ -31,9 +31,3 @@ There are many considerations when choosing a model, including cost, availabilit
 * If `gpt-35-turbo` is not available to you, try `text-davinci-003`. This is a slightly older model, but it performs well for many tasks. For applications where language understanding, but not *generation* is important (for example, information extraction or text correction), some of the other, smaller models may be better suited.
 
 * If you need to generate more than 4,096 tokens, or need to support larger prompts, you will need to use `gpt-4` or `gpt-4-32k`. These models are more expensive and can be slower, and have limited availability, but they are the most powerful models available today.
-
-## Next steps
-
-Return to the Azure OpenAI Studio home page by clicking "🏠 Azure OpenAI" in the left-hand column.
-
-Now, proceed to [2 Completions.md](2%20Completions.md) 

@@ -16,7 +16,7 @@ The goal of this 45-minute lab is to:
 <Social
     page_url="https://gloveboxes.github.io/OpenAI-Lab-Docs"
     image_url=""
-    title="New Patient Azure Form Recognizer Workshop"
+    title="Explore Azure OpenAI Service Workshop"
     description= "🏭 Explore Azure OpenAI Service Workshop @revodavid"
     hashtags="AzureOpenAI"
     hashtag=""

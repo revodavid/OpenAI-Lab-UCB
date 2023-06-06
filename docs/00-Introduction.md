@@ -3,24 +3,11 @@ sidebar_position: 0
 slug: /
 ---
 
-import Social from '@site/src/components/social';
-
-# Introduction
+# Introduction UCB
 
 The goal of this 45-minute lab is to:
   * Understand the capabilities of Azure OpenAI Service
   * Learn how to use and customize natural language generative AI models like GPT-3.5 and ChatGPT
-
-## Please share
-
-<Social
-    page_url="https://gloveboxes.github.io/OpenAI-Lab-Docs"
-    image_url=""
-    title="Explore Azure OpenAI Service Workshop"
-    description= "🏭 Explore Azure OpenAI Service Workshop @revodavid"
-    hashtags="AzureOpenAI"
-    hashtag=""
-/>
 
 ## Pre-requisites
 

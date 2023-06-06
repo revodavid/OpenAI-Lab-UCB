@@ -9,8 +9,8 @@ const config = {
   title: "Explore Azure OpenAI Service",
   tagline: "Azure OpenAI Service HOL Workshop",
 
-  url: "https://gloveboxes.github.io/",
-  baseUrl: "/OpenAI-Lab-Docs/",
+  url: "https://revodavid.github.io/",
+  baseUrl: "/OpenAI-Lab-UCB/",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "gloveboxes", // Usually your GitHub org/user name.
-  projectName: "OpenAI-Lab-Docs", // Usually your repo name.
+  organizationName: "revodavid", // Usually your GitHub org/user name.
+  projectName: "OpenAI-Lab-UCB", // Usually your repo name.
 
   deploymentBranch: "gh-pages", // Branch that GitHub pages will deploy from.
 
@@ -43,7 +43,7 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/gloveboxes/OpenAI-Lab-Docs/tree/main",
+          editUrl: "https://github.com/revodavid/OpenAI-Lab-UCB/tree/main",
         },
         blog: false,
         theme: {

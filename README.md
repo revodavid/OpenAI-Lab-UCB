@@ -1,6 +1,8 @@
+[Click here for an easy-to-read version of this lab.](https://revodavid.github.io/OpenAI-Lab-UCB/)
+
 # Explore the OpenAI GPT Models
 
-This lab will is a 60-minute live demonstration of interaction with OpenAI models GPT3 (text-davinci-003) and ChatGPT (gpt-3.5-turbo). You can follow allong with the demonstration live using Use [Azure AI Studio](https://oai.azure.com/portal) or [OpenAI Playground](https://platform.openai.com/playground), or work through the examples in this repository later at your own pace and schedule.
+This lab is a 60-minute live demonstration of interaction with OpenAI models GPT3 (text-davinci-003) and ChatGPT (gpt-3.5-turbo). You can follow allong with the demonstration live using Use [Azure AI Studio](https://oai.azure.com/portal) or [OpenAI Playground](https://platform.openai.com/playground), or work through the examples in this repository later at your own pace and schedule.
 
 The goal of this 60-minute lab is to:
   * Understand the implementation and capabilities of GPT3 and ChatGPT
@@ -45,7 +47,7 @@ We would love to hear your feedback on this lab. Please use the Discussions tab 
 
 ## Docs published on GitHub Pages
 
-Docs are published on [GitHub Pages](https://gloveboxes.github.io/OpenAI-Lab-UCB/)
+Docs are published on [GitHub Pages](https://revodavid.github.io/OpenAI-Lab-UCB/)
 
 ## Docusaurus
 

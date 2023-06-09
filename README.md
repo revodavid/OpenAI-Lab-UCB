@@ -7,7 +7,7 @@ This session is a 60-minute live demonstration of interaction with OpenAI models
 The goal of this 60-minute session is to:
   * Understand the implementation and capabilities of GPT3 and ChatGPT
   * Learn how to use and customize natural language generative AI models using prompt engineering techniques
-  * Understand the basics of intergrating OpenAI models into applications with the API
+  * Understand the basics of integrating OpenAI models into applications with the API
 
 ## Pre-requisites
 

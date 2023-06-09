@@ -2,9 +2,9 @@
 
 # Explore the OpenAI GPT Models
 
-This lab is a 60-minute live demonstration of interaction with OpenAI models GPT3 (text-davinci-003) and ChatGPT (gpt-3.5-turbo). You can follow allong with the demonstration live using Use [Azure AI Studio](https://oai.azure.com/portal) or [OpenAI Playground](https://platform.openai.com/playground), or work through the examples in this repository later at your own pace and schedule.
+This session is a 60-minute live demonstration of interaction with OpenAI models GPT3 (text-davinci-003) and ChatGPT (gpt-3.5-turbo). You can follow along with the demonstration live using Use [Azure AI Studio](https://oai.azure.com/portal) or [OpenAI Playground](https://platform.openai.com/playground), or work through the examples in this repository later at your own pace and schedule.
 
-The goal of this 60-minute lab is to:
+The goal of this 60-minute session is to:
   * Understand the implementation and capabilities of GPT3 and ChatGPT
   * Learn how to use and customize natural language generative AI models using prompt engineering techniques
   * Understand the basics of intergrating OpenAI models into applications with the API
@@ -34,7 +34,7 @@ Once you have completed the Setup step, you can skip ahead to any of the other s
 
 ## Citations
 
-"Explore the OpenAI GPT Models", David Smith (Microsoft), 2023.
+"Explore the OpenAI GPT Models", David Smith (Microsoft), 2023. Presented at [UC Berkelyy AI Hackathon](https://ai.calhacks.io), June 17-18 2023. 
 
 When referening this repository, please use the shortlink: https://aka.ms/aoai-lab 
 

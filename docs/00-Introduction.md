@@ -5,7 +5,7 @@ slug: /
 
 import Social from '@site/src/components/social';
 
-# Introduction
+# Explore the OpenAI GPT Models
 
 The goal of this 45-minute lab is to:
   * Understand the capabilities of Azure OpenAI Service

@@ -4,6 +4,20 @@ sidebar_position: 0
 
 # Workshop Setup
 
+This section provides information on how to get yourself set up to run this lab on your own time. We won't go through this section live, but it's provided for your reference.
+
+You can run this lab using either OpenAI (at https://platform.openai.com) or Azure OpenAI Service (at https://oai.azure.com/portal). To use either service, you will need to have an account and available credits to use the service.
+
+## If you're using OpenAI
+
+Other than having a valid account and available credit, no further setup is needed.
+
+During the lab, we will mostly use the [OpenAI Playground](https://platform.openai.com/playground), using both the "Complete" and "Chat" modes.
+
+## If you're using Azure OpenAI Service
+
+To use Azure OpenAI Playgound during the lab, follow the instructions below to set up resources for models that use the Completions and Chat interfaces.
+
 ### Create an Azure OpenAI Service resource in Azure Portal
 
 1. Open the Microsoft Azure Portal at https://portal.azure.com and sign into your Azure Subscription. Make sure you are viewing the Home page of the Azure portal by clicking the hamburger menu in the top-left and selecting "Home".
@@ -31,8 +45,6 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
 1. Deployment may take up to 5 minutes. Once the deployment is complete, proceed to the next step.
 
 ## While you're waiting for the deployment to complete...
-
-1. Request access to the [Bing Chat waitlist](https://bing.com/new) if you haven't done so already. 
 
 1. Review the [Code of conduct for Azure OpenAI Service](https://learn.microsoft.com/en-us/legal/cognitive-services/openai/code-of-conduct).
 

@@ -11,17 +11,6 @@ The goal of this 45-minute lab is to:
   * Understand the capabilities of Azure OpenAI Service
   * Learn how to use and customize natural language generative AI models like GPT-3.5 and ChatGPT
 
-## Please share
-
-<Social
-    page_url="https://gloveboxes.github.io/OpenAI-Lab-Docs"
-    image_url=""
-    title="Explore Azure OpenAI Service Workshop"
-    description= "🏭 Explore Azure OpenAI Service Workshop @revodavid"
-    hashtags="AzureOpenAI"
-    hashtag=""
-/>
-
 ## Pre-requisites
 
 You will need an Azure Account to complete this lab. If you do not have an Azure Account, you can create one for free [here](https://azure.microsoft.com/free/).

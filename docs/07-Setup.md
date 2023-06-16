@@ -6,7 +6,9 @@ sidebar_position: 0
 
 This section provides information on how to get yourself set up to run this lab on your own time. We won't go through this section live, but it's provided for your reference.
 
-You can run this lab using either OpenAI (at https://platform.openai.com) or Azure OpenAI Service (at https://oai.azure.com/portal). To use either service, you will need to have an account and available credits to use the service.
+You can run this lab using either OpenAI (at https://platform.openai.com) or Azure OpenAI Service (at https://oai.azure.com/portal). Both services provide access to the same models used in this workshop.
+
+To use either service, you will need to have an account and available credits to use the service.
 
 ## If you're using OpenAI
 

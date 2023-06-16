@@ -6,8 +6,24 @@ This file describes how to configure your copy and build the web version for Git
 
 ## Prerequisites for local builds
 
-Follow the directions in the [Docusaurus documentation](https://docusaurus.io/docs/installation). In summary:
+Follow the directions in the [Docusaurus documentation](https://docusaurus.io/docs/installation). 
 
-* Install Node.js version 16.14 or later
+If you fork or clone this repository, you will need to edit the file [docusaurus.config.js](docusaurus.config.js) for successful builds.
+
+## Local development
+
+Launch a local server and see edits to the content in the `docs\` folder as you go with:
+
+```
+npm run start
+```
  
+## Build for deployment
 
+Create a hostable version of the pages with:
+
+```
+npm run build
+```
+
+This respository is also set up to build the site to GitHub Pages with GitHub Actions. See the "Actions" tab for the actual scripts used. 

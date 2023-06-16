@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Explore Azure OpenAI Service",
-  tagline: "Azure OpenAI Service HOL Workshop",
+  title: "Explore the OpenAI GPT Models",
+  tagline: "A 60-minute workshop on OpenAI GPT Models",
 
   url: "https://revodavid.github.io/",
   baseUrl: "/OpenAI-Lab-UCB/",
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "Explore Azure OpenAI Service",
+        title: "Explore the OpenAI GPT Models",
         logo: {
           alt: "My Site Logo",
           src: "img/Azure-OpenAI-Services.svg",

@@ -1,4 +1,4 @@
-# Use the Azure OpenAI Service API
+# Using the API
 
 Note, this section assumes familiarity with developer tools including the Azure Cloud Shell, shell scripts, and environment variables. If you are not familiar with these tools, you may want to skip ahead to the next section.
 
@@ -16,7 +16,7 @@ You can find a more complete list at [aka.ms/oai/models](https://aka.ms/oai/mode
 | ChatGPT | `gpt-35-turbo` | Conversation |
 | GPT-4 | `gpt-4` | Conversation |
 
-In this workshop, we will have been using GPT-3.5 and ChatGPT. GPT-4 is currently in preview, and existing Azure OpenAI customers can apply by [filling out this form](https://aka.ms/oai/get-gpt4).
+In this workshop, we will have been using GPT-3.5 and ChatGPT. GPT-4 is currently in preview in Azure OpenAI Service, and existing customers can request access by [filling out this form](https://aka.ms/oai/get-gpt4).
 
 ### Finding your API key
 

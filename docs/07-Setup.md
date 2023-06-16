@@ -12,13 +12,15 @@ To use either service, you will need to have an account and available credits to
 
 ## If you're using OpenAI
 
-Other than having a valid account and available credit, no further setup is needed.
+Other than having a valid [account](https://platform.openai.com) and available credit, no further setup is needed.
 
 During the lab, we will mostly use the [OpenAI Playground](https://platform.openai.com/playground), using both the "Complete" and "Chat" modes.
 
 ## If you're using Azure OpenAI Service
 
 To use Azure OpenAI Playgound during the lab, follow the instructions below to set up resources for models that use the Completions and Chat interfaces.
+
+Unlike with OpenAI, with Azure OpenAI Service you will create private instances of the OpenAI models that will run within your selected Azure tenant under your susbcription. You will manage the instances as Azure resources along with your other Azure resources.
 
 ### Create an Azure OpenAI Service resource in Azure Portal
 
@@ -38,7 +40,7 @@ NOTE: If you see the message in red, "Azure OpenAI Service is currently availabl
 
   * Subscription: leave unchanged
   * Resource Group: Click "create new" and enter `openai-lab-build` 
-  * Region: Select `South Central US`
+  * Region: Select `West Europe`
   * Name: Enter `openai-lab-build`
   * Pricing Tier: Select `Standard S0`
 
@@ -67,11 +69,9 @@ Once your Azure OpenAI deployment is complete:
 4. Click "+ Create New Deployment". Complete the "Deploy Model" form as follows, then click "Create"
 
   * Model Name: Select `text-davinci-003`
-  * Model version: Leave as `1`
   * Deployment Name: Enter `text-davinci-003`
 
 5. Once more, click "+ Create New Deployment". Complete the "Deploy Model" form as follows, then click "Create"
 
   * Model Name: Select `gpt-35-turbo`
-  * Model version: Leave as `0301`
   * Deployment Name: Enter `gpt-35-turbo`

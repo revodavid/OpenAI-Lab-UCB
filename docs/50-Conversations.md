@@ -1,12 +1,16 @@
 # Conversations
 
-If you've used consumer conversational AI services like OpenAI's ChatGPT service or [Bing Chat](https://bing.com/chat), you may wonder how the AI agent "remembers" context from earlier in the conversation. As we've seen, Generative AI models including ChatGPT (`gpt-35-turbo`) cannot learn, so how does information from the conversation persist?
+If you've used consumer conversational AI services like OpenAI's [ChatGPT](https://chat.openai.com/) service or [Bing Chat](https://bing.com/chat), you may wonder how the AI agent "remembers" context from earlier in the conversation. As we've seen, Generative AI models including ChatGPT (`gpt-35-turbo`) cannot learn, so how does information from the conversation persist?
 
 The answer is: it's a trick! The AI model isn't reacting to your most recent prompt in isolation. The user interface for the chat service provides the model with the *entire* chat history at each turn, invisibly to you, the user. Also observe that if you exit the conversation and return later, the model has no memory of your previous interactions, and you will start again from scratch.
 
-In this section, we'll explore conversations using the Chat Playground in Azure OpenAI Service.
+In this section, we'll explore conversations using the Chat Playground in Azure OpenAI Service or OpenAI.
 
-## Chat Playgound Orientation
+### In OpenAI
+
+Click on the [Playground](https://platform.openai.com/playground?mode=chat) tab, and switch the Mode selection in the right panel to `Chat`. The Model option should be set to: `gpt-3.5-turbo`.
+
+### In Azure OpenAI Service
 
 Return to the Azure OpenAI Studio, and click **Chat** under **Playground** in the left-hand menu. 
 
@@ -14,11 +18,14 @@ Return to the Azure OpenAI Studio, and click **Chat** under **Playground** in th
 make sure that the **Assistant Setup** dropdown is set to "default", 
 and click the **Clear chat** button in the **Chat session** panel to reset the conversation.)
 
-The Chat Playground is a simple interface for interacting with natural language generative AI models in a conversational setting. The interface is divided into two panes. The left pane, "Assistant Setup", is where we can provide context to style and inform the agent's responses. The right pane, "Chat session", is where we can see the conversation as it unfolds.
+
+## Chat Playgound Orientation
+
+The Chat Playground is a simple interface for interacting with natural language generative AI models in a conversational setting. The interface is divided into two panes. The left pane, labeled "Assistant Setup" or "System", is where we can provide context to style and inform the agent's responses. The right pane, "Chat session", is where we can see the conversation as it unfolds. 
 
 The far right column, "Parameters", allows you to select the model used and set its control parameters. We will use the `gpt-35-turbo` model here, but GPT-4 models may also be used here if you have access to them.
 
-If you ever need to return to the default settings, select "Default" in the Assistant Setup dropdown. 
+If you ever need to return to the default settings with Azure OpenAI Service, select "Default" in the Assistant Setup "Use a system message template" dropdown. 
 
 ## A simple example
 
@@ -36,13 +43,15 @@ Now add this response in the User message box:
 
 Click **Send**. The agent will respond with an answer involving isotopes of hydrogen: deuterium (one neutron) and tritium (two neutrons). Even though your second prompt did not mention hydrogen or neutrons, the response used the context of the chat to provide a more useful answer.
 
-Now, click the "Show raw JSON" toggle. This shows the data provided to the `gpt-35-turbo` API call, as a JSON array. Note that includes the entire context of the conversation (annotated by the roles: assistant, and user), along with the system message from the Assistant Setup pane.
+Now, click the "Show raw JSON" toggle. (This feature is only available in Azure OpenAI Service.) This shows the data provided to the `gpt-35-turbo` API call, as a JSON array. Note that includes the entire context of the conversation (annotated by the roles: assistant, and user), along with the system message from the Assistant Setup pane.
 
 Click the "View Code" button. Even if you're not familiar with using REST APIs (for which the JSON option is useful), or the curl application, or the Python or C# languages, this code shows you the information provided to the `gpt-35-turbo` API at *each* turn of the conversation. (We'll explore the API more in a later section.)
 
-Click **Close** in the View Code pane, uncheck the "Show raw JSON" option, and click **Clear chat** to reset the conversation before proceeding.
+Click **Close** in the View Code pane, uncheck the "Show raw JSON" option, and click **Clear chat** to reset the conversation before proceeding. (If you're using OpenAI, refresh the page.)
 
 ## Configuring the AI Assistant
+
+NOTE: The features below are only available in Azure OpenAI Service. 
 
 In the Assistant Setup pane, select "Hiking recommendations chatbot" from the dropdown. Observe that the System Message gives the assistant a name ("Forest"), a personality ("upbeat and friendly"), and instructions on how to behave ("introduce myself"; "always ask them for this information"), and how to respond ("provide three suggestions").
 

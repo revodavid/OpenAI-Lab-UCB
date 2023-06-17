@@ -1,6 +1,6 @@
 # Recap: What we've learned
 
-We hope that in the last 45 minutes, you've learned what natural language generative AI models are and how they work, how to access them in Azure OpenAI Service, and started on the path to building applications with them. Here are some key points to remember:
+We hope that in the last hour, you've learned what natural language generative AI models are and how they work, how to access them in Azure OpenAI Service, and started on the path to building applications with them. Here are some key points to remember:
 
 * Generative AI models can generate humanlike text, images, and code
 * Generative AI models are stateless: they do not learn, and are constrained by their training data which is frozen at a fixed point in time
@@ -28,4 +28,4 @@ We didn't cover these topics in this short session, but here are some related to
 
 ## Next Steps
 
-That's it for this module! But if you still have some time to spare, and have access to Bing Chat, we've provided some things to try in [Extra Credit](Extra-Credit).
+That's it for this module! But if you still have some time to spare, and have access to Bing Chat, we've provided some things to try in the next section.

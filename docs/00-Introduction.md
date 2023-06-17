@@ -18,7 +18,7 @@ The goal of this 60-minute session is to:
 2. [Explore Models](Explore-Models). Understand the natural language models available in OpenAI and Azure OpenAI Service.
 3. [Completions](Completions). Understand and experiment with prompts and completions.
 4. [Tokens](Tokens). Learn about tokens in OpenAI models.
-5. [Applications](Applications) [6 minutes]. Learn about applications of natural language generative AI models.
+5. [Applications](Applications). Learn about applications of natural language generative AI models.
 6. [Conversations](Conversations). Use the Chat playground.
 7. [Prompt Engineering](Prompt-Engineering). Learn how to use prompt engineering to customize the behavior of the model.
 8. [Using the API](Using-the-API). Learn how to use the Azure OpenAI API.

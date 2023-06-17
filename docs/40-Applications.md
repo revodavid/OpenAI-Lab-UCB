@@ -2,15 +2,19 @@
 
 Most people are familiar with natural language generative AI from applications like ChatGPT, but you can use these models for much more than chatbots. In this section, we'll explore some other useful applications of these models.
 
-Return to the Completions playground in the Azure OpenAI Studio. We will use the "Examples" dropdown to populate the prompt box for the different applications. Note that in some cases you may need to increase the Max length (tokens) option to prevent truncated completions.
+Return to the Completions playground. We will use the "Examples" dropdown (in Azure OpenAI Service) or the "Load a Preset" dropdown (in OpenAI)  to populate the prompt box for the different applications. The provided examples may differ between the services; we'll discuss the output from Azure OpenAI Service here. 
+
+Note that in some cases you may need to increase the Max length (tokens) option to prevent truncated completions.
 
 ## Translation: Human languages
 
 Configure the options above the prompt box as follows:
 
-| Deployment | Examples |
+| Service | Examples / Load a Preset |
 | --- | --- |  
-text-davinci-003 | Translate Text
+| Azure OpenAI Service | Translate Text | 
+| OpenAI | English to Other Langauges |
+
 
 Click **Generate**. `text-davinci-003` translates the given text into French and Spanish. Modify the prompt to some other examples of text and languages.
 
@@ -18,17 +22,28 @@ Natural language models are trained on a subset of data from the internet, so th
 
 ## Information extraction
 
-| Deployment | Examples |
+| Service | Examples / Load a Preset |
 | --- | --- |  
-text-davinci-003 | Extract entities from text
+| Azure OpenAI Service | Extract entities from text |
+| OpenAI | (clear the preset selection)
+
+
+NOTE: OpenAI does not have an equivalent example, so paste in this prompt directly:
+```
+Extract the person name, company name, location and phone number from the text below.
+
+Hello. My name is Robert Smith. I’m calling from Contoso Insurance, Delaware. My colleague mentioned that you are interested in learning about our comprehensive benefits policy. Could you give me a call back at (555) 346-9322 when you get a chance so we can go over the benefits?
+```
+
 
 Click **Generate**. This example shows how you can combine a prompt with data to extract information using natural-language instructions. In this case, the completion extracts the name, company, location, and phone number from an email. Modify the prompt and the source data to extract different information.
 
 ## Extract structured data from text
 
-| Deployment | Examples |
+| Service | Examples / Load a Preset |
 | --- | --- |  
-text-davinci-003 | Parse unstructured data
+| Azure OpenAI Service | Parse unstructured data |
+| OpenAI | Parse unstructured data 
 
 Click **Generate**. In this example, we provide freeform narrative about fictitious fruits, and prompt the model to generate a table of all the fruits mentioned and their attributes. 
 
@@ -36,17 +51,27 @@ In this example, we "primed" the model with the desired output format: a header 
 
 Try extending the prompt by appending the following text:
 ```
- Please make a JSON array summarizing the fruits from Goocrux
+ Please make a JSON array summarizing the fruits from Goocrux:
 ```
 The model will now return a JSON array of the fruit and their attributes.
 
-<!-- This prompt works without an example to guide it, but you may need to increase the token limit and remove any Stop Sequences in the right pane. -->
-
 ## Classification
 
-| Deployment | Examples |
+| Service | Examples / Load a Preset |
 | --- | --- |  
-text-davinci-003 | Classify Text
+| Azure OpenAI Service | Classify Text | 
+| OpenAI | Classification |
+
+NOTE: We discuss this prompt from the "Classify Text" example.
+```
+Classify the following news headline into 1 of the following categories: Business, Tech, Politics, Sport, Entertainment
+
+Headline 1: Donna Steffensen Is Cooking Up a New Kind of Perfection. The Internet's most beloved cooking guru has a buzzy new book and a fresh new perspective
+Category: Entertainment
+
+Headline 2: Major Retailer Announces Plans to Close Over 100 Stores
+Category:
+```
 
 Click **Generate**. In this example, we provide one example of a headline and a category, and ask the model to classify a second example. This is an example of "one-shot learning": with just one example, the model can generalize to classify a new example.
 
@@ -67,11 +92,12 @@ Try replacing Headline 2 with other text and regenerating the completion. Does i
 
 ## Text summarization
 
-| Deployment | Examples |
+| Service | Examples |
 | --- | --- |  
-text-davinci-003 | Summarize an article (abstractive)
-text-davinci-003 | Summarize key points from financial report (extractive)
-text-davinci-003 | Summarize issue resolution from a conversation
+Azure OpenAI Service | Summarize an article (abstractive)
+Azure OpenAI Service | Summarize key points from financial report (extractive)
+Azure OpenAI Service | Summarize issue resolution from a conversation
+OpenAI | Summarize for a 2nd grader
 
 These three examples show different methods of text summarization; load each example prompt and Click **Generate** to see the results.
 

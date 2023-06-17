@@ -12,6 +12,17 @@ You can learn more details about how OpenAI's models work at Microsoft Learn: [U
 
 ## Launch the Completions Playground
 
+### In OpenAI
+
+Log in to the [OpenAI platform](https://platform.openai.com/), and click "Playground" in the top menu bar. Confirm the following settings in the right panel, and adjust if necessary:
+
+* Mode: Complete
+* Model: text-davinci-003
+* Temperature: 1
+* Max Length: 1000
+
+### In Azure OpenAI Service
+
 In the left navigation of the Azure OpenAI Studio home page, click "Completions" under the "Playground" heading.
 
 In the drop-downs under "Completions playground" make sure the following options are selected:
@@ -19,23 +30,26 @@ In the drop-downs under "Completions playground" make sure the following options
 1. Deployments: `text-davinci-003`
 2. Examples: `Load an example` (do not change this option yet)
 
+ Confirm the following settings in the Parameters panel on the right, and adjust if necessary:
+
+* Temperature: 1
+* Max Length (tokens): 1000
+
 ## Basic Prompting
 
-In the prompt box (where you see the text "Start typing here"), you can enter any text you like, and then use one of your deployed models to generate a completion. Let's try a few examples.
+In the prompt box (where you see the text "Start typing here" or other default text), you can enter any text you like, and then use one of your deployed models to generate a completion. Let's try a few examples.
 
 Enter the following in the prompt box: 
 
     I climbed the apple tree and picked an
     
-Now click the "Generate" button below the prompt box.
+Now click the "Generate" or "Submit" button below the prompt box.
 
 The generated completion will appear in green in the prompt box, following the prompt you entered. The prompt box probably now contains: "I climbed the apple tree and picked an apple".
 
 ## Useful prompts
 
 Clear the contents of the prompt box. (Control-A and then Delete should do the trick, or you can reload the page in your browser.) Repeat this process every time you want to enter a new prompt.
-
-By default, the Completions Playground limits the length of completions to 100 tokens (about 75 words). To allow for longer completions, change the "Max tokens" option in the right column from 100 to 1000.
 
 Now, try a few other prompts and observe the response. Here are some examples to try, but get creative with your own prompts and see what happens!
 
@@ -87,7 +101,7 @@ In this case, the model is limited by training data, which is current only up to
 
     What is the square root of 98765?
 
-The model will generate an answer to math questions, but there's no guarantee it will be correct. (If it is correct, it's only because the question and answer are represented in the training data.)
+The model will generate an answer to math questions, but there's no guarantee it will be correct. The correct answer here (to 3 dp) is `314.269`. Try clicking Regenerate and see if you get the same answer. (If you do get the correct response to a math question from a foundational GPT model, it's only because the question and answer are well represented in the training data.)
 
 But you could ask the model to write Python code to calculate the square root of 98765, and it would probably do a good job. (Try it!).
 
@@ -105,7 +119,7 @@ In the following section, we'll explore other aspects of completions.
 
 Clear the contents of the prompt box. Enter the prompt below, then click "Generate".
 
-    I climbed the tree and picked a 
+    I climbed the tree and picked a
 
 (Note that we didn't specify a kind of tree this time.) Once again, your completion will appear in green. It might read "an apple", "a pear", or something else entirely. The completion is non-deterministic: the model is not guaranteed to generate the same completion for the same prompt every time. 
 

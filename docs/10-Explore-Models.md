@@ -19,8 +19,8 @@ In this workshop, we will occasionally mention GPT-4, the latest model from Open
 You can find details about these models and other models available in Azure OpenAI Service at [https://aka.ms/oai/models](https://aka.ms/oai/models). There you will learn that:
 
 * `text-davinci-003` is currently available in the East US and West Europe regions, has a Max Request limit of 4,097 tokens, and is based on training data up to June 2021.
-* `gpt-35-turbo` is currently available (preview) in the East US, South Central US, and West Europe regions, has a Max Request limit of 4,096 tokens, and is based on training data up to September 2021.
-* `gpt-4` is only available by request in the East US and South Central US regions, has a Max Request limit of 8,192 tokens (or 32,768 tokens for the `gpt-4-32k` variant), and is based on training data up to September 2021.
+* `gpt-35-turbo` is currently available (preview) in the East US, France Central, South Central US, UK South, and West Europe regions, has a Max Request limit of 4,096 tokens, and is based on training data up to September 2021.
+* `gpt-4` is only available by request in the East US and France Central regions, has a Max Request limit of 8,192 tokens (or 32,768 tokens for the `gpt-4-32k` variant), and is based on training data up to September 2021.
 
 ## Which model should I use?
 
